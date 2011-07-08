@@ -10,11 +10,11 @@ see how it goes.
 
 It can look more or less like this:
 
-  class WaterPool
-    include Virtus
+    class WaterPool
+      include Virtus
 
-    attribute :capacity, Volume, :input_unit => :gallon, :output_unit => :lbs
-  end
+      attribute :capacity, Volume, :input_unit => :gallon, :output_unit => :lbs
+    end
 
-  water_pool = WaterPool.new(:capacity => 10000)
-  water_pool.capacity # 37854.118
+    water_pool = WaterPool.new(:capacity => 10000)
+    water_pool.capacity # 37854.118
