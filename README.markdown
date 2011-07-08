@@ -13,7 +13,7 @@ It can look more or less like this:
     class WaterPool
       include Virtus
 
-      attribute :capacity, Volume, :input_unit => :gallon, :output_unit => :lbs
+      attribute :capacity, Volume, :input_unit => :gallon, :output_unit => :liter
     end
 
     water_pool = WaterPool.new(:capacity => 10000)
